@@ -5,9 +5,9 @@ name: Update README
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "origin/main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "origin/main" ]
 
 jobs:
   build:
