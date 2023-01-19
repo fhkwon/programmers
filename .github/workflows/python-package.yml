@@ -19,7 +19,10 @@ jobs:
         python-version: ["3.10"]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+      with:
+        repository: your-private/repo_name
+        token: ${{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}}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
