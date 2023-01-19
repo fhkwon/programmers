@@ -33,6 +33,7 @@ jobs:
         python update.py
     - name: Commit changes
       run: |
+        git remote set-url origin https://github-fhkwon@github.com/fhkwon/programmers.git 
         git config --global user.name 'fhkwon'
         git config --global user.email 'fhkwonb@gmail.com'
 
