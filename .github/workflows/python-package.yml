@@ -34,7 +34,7 @@ jobs:
     - name: Commit changes
       run: |
         
-        git remote set-url https://github.com/fhkwon/programmers.git
+        git remote set-url origin https://fhkwon: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@github.com/fhkwon/programmers.git
         git config --global user.name "fhkwon"
         git config --global user.email "fhkwonb@gmail.com"
         git add -A
