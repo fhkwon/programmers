@@ -30,7 +30,7 @@ jobs:
         pip install python-leetcode
     - name: Run update.py
       run: |
-        python update.py
+        python uploade.py
     - name: Commit changes
       run: |
         git config --global user.name "fhkwon"
