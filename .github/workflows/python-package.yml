@@ -36,9 +36,9 @@ jobs:
         python update.py
     - name: Commit changes
       run: |
-        git remote remove origin
-        git remote add origin https://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@github.com/programmers.git
 
+        git config --global user.name "fhkwon"
+        git config --global user.email "fhkwonb@gmail.com"
         git add -A
         git commit -am "auto update README.md"
         
