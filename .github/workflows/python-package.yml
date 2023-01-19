@@ -36,7 +36,6 @@ jobs:
         python update.py
     - name: Commit changes
       run: |
-
         git config --global user.name "fhkwon"
         git config --global user.email "fhkwonb@gmail.com"
         git add -A
