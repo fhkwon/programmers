@@ -33,7 +33,7 @@ jobs:
         python update.py
     - name: Commit changes
       run: |
-        
+        git remote remove origin
         git remote add origin https://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@github.com/programmers.git
 
         git add -A
